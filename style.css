@@ -1,0 +1,386 @@
+/* variabili */
+:root{
+--wh: white;
+--bl:black;
+--yell: rgb(235, 220, 14);
+--viol:rgb(187, 38, 193);
+--bg:rgb(27, 21, 64);
+}
+
+.text-wh{
+    color: var(--wh);
+}
+.text-bl{
+    color: var(--bl);
+}
+.text-yell{
+    color: var(--yell);
+}
+
+.bg-viol{
+    background-color: var(--viol);
+}
+.bg-yell{
+    background-color: var(--yell);
+
+}
+
+.bg-bl{
+    background-color: var(--bl);
+}
+.bg{
+    background-color: var(--bg);
+}
+
+/* header */
+/* section 1 */
+#first{
+    height: 100vh;
+    background-image: url(./media/bg-1.jpg);
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.contenitore{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 70px;
+    width: 180px;
+}
+.arcade{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    right: -70px;
+    bottom: -15px;
+  
+}
+.description h1{
+   
+    font-size: 35px;
+}
+.calendario i{
+    color: var(--yell);
+    font-size: 50px;
+}
+.calendario{
+    display: flex;
+    gap: 10px;
+}
+
+
+.button-custom{
+    border: 1px solid var(--yell);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.button-custom:hover{
+    text-transform: uppercase;
+}
+/* section2 */
+#second{
+    background-color: rgb(27, 21, 64);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 70vh;
+}
+.second-left{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: -40px;
+
+}
+.second-right{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -130px;
+
+}
+.second-right h4{
+    font-size: 30px;
+}
+.second-right p{
+    font-size: 15px;
+}
+
+.second-right b{
+    text-transform:uppercase;
+
+}
+/* section3 */
+#third{
+    background-image: url(./media/bg-2.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: var(--bg);
+    height: 600px;
+    width: 500px;
+    border-radius: 15px;
+    position: relative;
+    bottom: -110px;
+
+}
+.box h3{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.date{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.date i{
+    background-color: var(--yell);
+    color: var(--wh);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 40px; 
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generali{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box input{
+    background-color: var(--bg);
+    border: none;
+    border-bottom: 2px solid var(--viol);
+    margin-top: 20px;
+}
+.cellulare{
+    display: flex;
+    justify-content: space-between;
+}
+#number{
+    position: relative;
+    width: 55%;   
+}
+#checkbox{
+    margin-left: 10px;
+}
+.button-chek{
+    text-align: center;
+    background-color: var(--yell);
+    color: var(--bl);
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#fourt{
+    background-color: rgb(20, 9, 37);
+    height: 70vh;
+}
+#fourt img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: -65px;
+    left: 120px;
+}
+.futur-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chisiamo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+   bottom: -50px;
+    right: 20px; 
+    font-size: 20px;
+}
+.chisiamo span{
+    text-transform: uppercase;
+}
+
+.futur-container h4{
+    position: relative;
+    left: -260px;
+}
+#last{
+    background-image: url(./media/bg-3.jpg);
+    height: 100vh;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#last img{
+    height: 600px;
+    position: relative;
+    bottom: -25px;
+    right: 90px;
+}
+.biografia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+.biografia p{
+    width: 400px;
+    text-align: left;
+}
+.biografia h5{
+    position: relative;
+    left: -70px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+
+
+/* media-querys */
+@media screen and (max-width:700px  )  { 
+   .first-left{
+    position: relative;
+    left: -30px;
+   }
+   .arcade{
+    height: 250px;
+    width: 250px;
+   }
+ #second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+ }
+ 
+ .second-left{
+    position: relative;
+    left: -1px;
+    top: -5px; 
+    margin-top: 15px;
+    padding: 5px;
+ }
+ .second-right{
+    position: relative;
+    left: 8px;
+    top: -20px;
+    margin-top: 20px;
+    padding: 5px;
+    
+ }
+
+ #third{
+    height: 90vh;
+  }
+  .box{
+     
+      width: 350px ;
+      position: relative;
+      top: 20px;
+  }
+  
+  #fourt{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+  .chisiamo{
+      flex-direction: column;
+      margin-left: 20px;
+      text-align: center;
+  }
+  .chisiamo h4{
+    
+      position: relative;
+      left: -5px;
+  }
+  #fourt img{
+      height: 200px;
+      width: auto;
+      position: relative;
+      left: 75px;
+      top: -20px;
+      margin-top: 20px;
+  }
+  
+  #last{
+      height: 90vh;
+      position: relative;
+  }
+  .biografia{
+    
+    height: 500px;
+    width: 70%;
+    position: relative;
+    top: 100px;
+    right: -85px;
+    font-size: small;
+    text-wrap: wrap;
+    
+    
+
+    
+  }
+
+  #last img{
+    height: 200px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+   left: 140px;
+   width: 200px;
+   border-radius: 50%;
+  }
+
+  
+  .biografia p{
+  width: 100%;
+ position: relative;
+ left: -72px;
+  }
+ 
+     
+  
+}
+
